@@ -509,7 +509,7 @@ a.w3_agile_vimeo:hover{
 h3.agileits-title {
     font-size: 3.5em;
     text-transform: uppercase;
-    color: #CEE5ED;
+    color: #1a6078;
     margin-bottom: 0.6em;
     font-weight: 300;
 } 
@@ -555,7 +555,7 @@ p {
 	font-size:1em;
 	color:#212121;
 	text-decoration:none;
-	background: none;
+	background-color:lightcyan;
     vertical-align: middle;
     position: relative;
     z-index: 1;
