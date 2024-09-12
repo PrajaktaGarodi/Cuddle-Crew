@@ -130,7 +130,7 @@ body a:hover,body a:focus{
 }
 .navbar-default .navbar-nav > li > a {
     color: #fff;
-    font-size: 1.2em;
+    font-size: 20px;
     padding: 0;
     position: relative;
     font-weight:400;
@@ -519,11 +519,12 @@ a.w3_agile_vimeo:hover{
 	padding:5em 0;
 }
 h3.agileits-title {
-    font-size: 3.5em;
+    font-size: 40px;
     text-transform: uppercase;
     color: #1a6078;
     margin-bottom: 0.6em;
-    font-weight: 300;
+    font-weight: 100;
+    font-family: 'Times New Roman', Times, serif;
 } 
 p {
     font-size: 1em; 
@@ -721,14 +722,15 @@ p {
 }
 /*-- //Effect1 --*/
 .services-grid h5 {
-    font-size: 1.3em;
+    font-size: 25px;
     margin: 1.5em 0 0.6em 0;
-    color:#CEE5ED;
+    color: rgb(243, 243, 246);
     text-transform: uppercase;
     letter-spacing: 1px;
 } 
 .services-grid p { 
-    color: #fff; 
+    color: lightblue; 
+    font-size: 18px;
 }
 /*-- //services --*/  
 /*-- blog-bottom --*/ 
@@ -846,11 +848,12 @@ h3.agileits-title.w3title1 {
 }
 .footer-grid h3, .footer-list h3 {
     margin: 0 0 1em 0;
-    color:#363F6A;
+    color:#c8d1fc;
     font-size: 1.8em;
     font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 1px;
+    font-family: 'Times New Roman', Times, serif;
 }
 .footer-grid ul,.footer-list ul{
 	padding:0;
@@ -910,6 +913,7 @@ ul.w3agile_footer_grid_list i.fa.fa-twitter {
 }
 .footer-bottom p a{
 	color:#CEE5ED;
+
     text-decoration: none;
 }
 .footer-bottom p a:hover{
@@ -1051,6 +1055,7 @@ ul.w3agile_footer_grid_list i.fa.fa-twitter {
 }
 img.img-responsive {
     width: 100%;
+    height: 300px;
 }
 .team-grids .agileits_social_list li {
     margin: 0 0.5em;
@@ -2155,6 +2160,7 @@ ul.dropdown-menu li {
 .w3_agile_blog_bottom_left img.img-responsive {
     width: 50%;
     margin: 0 auto;
+    
 }
 .w3_agile_blog_bottom_right {
     padding: 3em 5em;
@@ -2689,4 +2695,20 @@ button.navbar-toggle {
 {
     margin-top: 20px;
     color: #363F6A;
+}
+
+.service{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+    color: black;
+}
+
+.services-grid img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
 }
