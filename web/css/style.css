@@ -736,27 +736,34 @@ p {
 /*-- blog-bottom --*/ 
 .w3_agile_blog_bottom_right {
     text-align: left;
-    padding: 8em 0 0 6em;
+    padding: 20px;
 }
-.w3_agile_blog_bottom_right h3 {
+.blog-bottom .container
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.w3_agile_blog_bottom_right h2 {
     font-size: 2.5em;
-    color: #CEE5ED;
+    color: navy;
     font-weight: 300;
     letter-spacing: 3px;
 }
 .w3_agile_blog_bottom_right p { 
     margin: 2em 0 3em;
 }
-.w3_agile_blog_bottom_right h5 {
-    font-size: 1.5em;
-    color: #212121;
+.w3_agile_blog_bottom_right h2 {
+    /* font-size: 1.5em; */
+    color: navy;
     padding-bottom: .5em;
     position: relative;
     margin-bottom: 1em;
 }
-.w3_agile_blog_bottom_right h5:after {
+.w3_agile_blog_bottom_right h2:after {
     content: '';
-    background: #222;
+    background: navy;
     height: 1px;
     width: 27%;
     position: absolute;
