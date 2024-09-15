@@ -90,7 +90,7 @@ body a:hover,body a:focus{
     display: inline-block;
     color: #fff;
     margin-left: 2em;
-    font-size: 1.1em;
+    font-size: 20px;
 }
 .agileits_w3layouts_sign_in ul li a {
     display: inline-block;
@@ -104,7 +104,7 @@ body a:hover,body a:focus{
 }
 .agileits_w3layouts_sign_in ul li span {
     font-size: 1.5em;
-    color: #363F6A;
+    color: whitesmoke;
 } 
 /*-- //header-top --*/
 /*-- top-nav --*/ 
@@ -2140,7 +2140,7 @@ ul.dropdown-menu li {
     font-size: 1.6em;
 }
 .agileits_w3layouts_sign_in ul li { 
-    font-size: 1em;
+    font-size: 50px;
 }
 .agileits_w3layouts_sign_in ul li a { 
     padding: .5em 1.5em; 
@@ -2264,7 +2264,7 @@ h3.agileits-title {
     padding: 5em 4em;
 }
 .agileits_w3layouts_sign_in ul li span {
-    font-size: 1.2em; 
+    font-size: 20px; 
 }
 .agileits_w3layouts_sign_in ul li { 
     margin-left: 1.5em; 
@@ -2408,7 +2408,7 @@ h3.agileits-title {
 } 
 .agileits_w3layouts_sign_in ul li {
     margin-left: 1em;
-	font-size: 0.9em;
+	font-size: 20px;
 }
 .w3ls-banner.about-w3lsbanner .header {
     padding-bottom: 1.5em;
@@ -2680,10 +2680,12 @@ button.navbar-toggle {
     width: 55%;
     /* border: 1px solid darkblue; */
     padding: 10px;
-  font-family: "Playwrite CU", cursive;
     
 }
+.contant-box>p{
+  font-family: "Playwrite CU", cursive;
 
+}
 .border-box img
 {
     height: 100%;
@@ -2697,6 +2699,12 @@ button.navbar-toggle {
     color: rgb(1, 1, 3);
 
 }
+    #btn{
+        margin-top: 20px;
+        /* margin-left: 80px; */
+    }
+
+
 
 .contant-box p
 {
@@ -2712,10 +2720,21 @@ button.navbar-toggle {
     font-family: 'Times New Roman', Times, serif;
     font-weight: 100;
     color: black;
+    margin-top: 10px;
+
 }
 
 .services-grid img{
     height: 150px;
     width: 150px;
     border-radius: 50%;
+}
+
+.modal-body{
+    background-color: rgb(204, 224, 230);
+
+}
+.modal-body ul li{
+    margin-top: 5px;
+    
 }
