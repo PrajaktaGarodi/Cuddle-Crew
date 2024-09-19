@@ -2738,3 +2738,19 @@ button.navbar-toggle {
     margin-top: 5px;
     
 }
+
+@media only screen and (min-device-width: 410px) and (max-device-width :800px)  
+{
+ 
+    .banner-bottom{
+        height: 100%;
+        width: 100%;
+        flex-direction: column;
+    }
+
+
+    .box{
+        width: 100%;
+        margin: 20px;
+    }
+}
